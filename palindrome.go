@@ -4,6 +4,7 @@ func main() {
 	print(isPalindrome(21))
 }
 
+//https://leetcode-cn.com/problems/palindrome-number
 func isPalindrome(x int) bool {
 	if x < 0 {
 		return false

@@ -10,6 +10,7 @@ func main() {
 	print(isValid("}{"))     //false
 }
 
+//https://leetcode-cn.com/problems/valid-parentheses
 func isValid(s string) bool {
 	if s == "" {
 		return true

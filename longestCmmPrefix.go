@@ -14,6 +14,7 @@ func main() {
 	print(longestCommonPrefix(data))
 }
 
+//https://leetcode-cn.com/problems/longest-common-prefix
 func longestCommonPrefix(strs []string) string {
 	strLen := len(strs)
 	if strLen == 0 {
